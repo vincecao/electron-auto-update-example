@@ -1,0 +1,37 @@
+{
+  "name": "electron-auto-update-example",
+  "version": "3.0.1",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincecao/electron-auto-update-example.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --publish always"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.12",
+    "electron-builder": "^20.40.2"
+  },
+  "dependencies": {
+    "electron-updater": "^4.0.6",
+    "http-server": "^0.11.1"
+  },
+  "build": {
+    "appId": "com.example.ElectronAutoUpdate",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "<YOUR-USER-NAME>",
+        "repo": "electron-auto-update-example",
+        "token": "<YOUR-TOKEN>"
+      }
+    ]
+  }
+}
