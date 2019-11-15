@@ -1,0 +1,8 @@
+version: 3.0.2
+files:
+  - url: electron-auto-update-example Setup 3.0.2.exe
+    sha512: jeFDbpOHxkRbBuVlBqVT7ixS8i+KIPd93ZvyTkf4mJJvi+zYAefXEMYdffY79VXOm8MJT967uh9hp88ddpGdqQ==
+    size: 169583582
+path: electron-auto-update-example Setup 3.0.2.exe
+sha512: jeFDbpOHxkRbBuVlBqVT7ixS8i+KIPd93ZvyTkf4mJJvi+zYAefXEMYdffY79VXOm8MJT967uh9hp88ddpGdqQ==
+releaseDate: '2019-11-15T23:00:50.631Z'
