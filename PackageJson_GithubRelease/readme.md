@@ -1,4 +1,4 @@
-# Github realse way of using Electron-Updater example
+# Github release page for Electron-Updater example
 
 Go to github release page for exe downloads
 
